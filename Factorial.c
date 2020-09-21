@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	long long int a=1;
+	printf("Enter the Number ");
+	scanf("%d",&n);
+	if(n<0)
+	printf("Factorial does not Exist");
+	else
+	{
+			for(i=n;i>=1;i--)
+	{
+		a*=i;
+	}
+	printf("Factorial of %d is %lld",n,a);
+	}
+    return 0;
+}
